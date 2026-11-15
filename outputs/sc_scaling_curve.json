@@ -1,0 +1,77 @@
+[
+  {
+    "N": 1,
+    "Accuracy (%)": 46.0,
+    "Avg Gen Tokens / Problem": 202.92
+  },
+  {
+    "N": 2,
+    "Accuracy (%)": 56.0,
+    "Avg Gen Tokens / Problem": 399.22
+  },
+  {
+    "N": 3,
+    "Accuracy (%)": 68.0,
+    "Avg Gen Tokens / Problem": 596.58
+  },
+  {
+    "N": 4,
+    "Accuracy (%)": 70.0,
+    "Avg Gen Tokens / Problem": 793.32
+  },
+  {
+    "N": 5,
+    "Accuracy (%)": 74.0,
+    "Avg Gen Tokens / Problem": 994.18
+  },
+  {
+    "N": 6,
+    "Accuracy (%)": 76.0,
+    "Avg Gen Tokens / Problem": 1212.06
+  },
+  {
+    "N": 7,
+    "Accuracy (%)": 74.0,
+    "Avg Gen Tokens / Problem": 1407.74
+  },
+  {
+    "N": 8,
+    "Accuracy (%)": 78.0,
+    "Avg Gen Tokens / Problem": 1589.36
+  },
+  {
+    "N": 9,
+    "Accuracy (%)": 80.0,
+    "Avg Gen Tokens / Problem": 1793.74
+  },
+  {
+    "N": 10,
+    "Accuracy (%)": 80.0,
+    "Avg Gen Tokens / Problem": 1993.72
+  },
+  {
+    "N": 11,
+    "Accuracy (%)": 82.0,
+    "Avg Gen Tokens / Problem": 2182.56
+  },
+  {
+    "N": 12,
+    "Accuracy (%)": 84.0,
+    "Avg Gen Tokens / Problem": 2378.14
+  },
+  {
+    "N": 13,
+    "Accuracy (%)": 84.0,
+    "Avg Gen Tokens / Problem": 2571.92
+  },
+  {
+    "N": 14,
+    "Accuracy (%)": 84.0,
+    "Avg Gen Tokens / Problem": 2757.54
+  },
+  {
+    "N": 15,
+    "Accuracy (%)": 84.0,
+    "Avg Gen Tokens / Problem": 2970.56
+  }
+]

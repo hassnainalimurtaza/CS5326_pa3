@@ -1,0 +1,62 @@
+[
+  {
+    "Method": "Greedy (N=1)",
+    "Accuracy (%)": 66.0,
+    "Generation Calls": 50,
+    "Judge Calls": 0,
+    "Total LLM Calls": 50,
+    "Avg Gen Tokens / Problem": 221.52,
+    "Avg Judge Tokens / Problem": 0.0,
+    "Total Time (s)": 430.35
+  },
+  {
+    "Method": "Self-Consistency (N=5)",
+    "Accuracy (%)": 74.0,
+    "Generation Calls": 250,
+    "Judge Calls": 0,
+    "Total LLM Calls": 250,
+    "Avg Gen Tokens / Problem": 994.18,
+    "Avg Judge Tokens / Problem": 0.0,
+    "Total Time (s)": 571.32
+  },
+  {
+    "Method": "Compute-Matched SC (N=15)",
+    "Accuracy (%)": 84.0,
+    "Generation Calls": 750,
+    "Judge Calls": 0,
+    "Total LLM Calls": 750,
+    "Avg Gen Tokens / Problem": 2970.56,
+    "Avg Judge Tokens / Problem": 0.0,
+    "Total Time (s)": 1342.63
+  },
+  {
+    "Method": "PRM Best-of-5 (min)",
+    "Accuracy (%)": 72.0,
+    "Generation Calls": 250,
+    "Judge Calls": 1585,
+    "Total LLM Calls": 1835,
+    "Avg Gen Tokens / Problem": 994.18,
+    "Avg Judge Tokens / Problem": 858.94,
+    "Total Time (s)": 3681.08
+  },
+  {
+    "Method": "PRM Best-of-5 (product)",
+    "Accuracy (%)": 66.0,
+    "Generation Calls": 250,
+    "Judge Calls": 1585,
+    "Total LLM Calls": 1835,
+    "Avg Gen Tokens / Problem": 994.18,
+    "Avg Judge Tokens / Problem": 858.94,
+    "Total Time (s)": 3681.08
+  },
+  {
+    "Method": "PRM Best-of-5 (step_penalty, lambda=2.0)",
+    "Accuracy (%)": 72.0,
+    "Generation Calls": 250,
+    "Judge Calls": 1585,
+    "Total LLM Calls": 1835,
+    "Avg Gen Tokens / Problem": 994.18,
+    "Avg Judge Tokens / Problem": 858.94,
+    "Total Time (s)": 3681.08
+  }
+]

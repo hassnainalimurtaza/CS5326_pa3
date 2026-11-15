@@ -1,0 +1,82 @@
+{
+  "num_problems": 50,
+  "bootstrap_95ci_accuracy": {
+    "Greedy (N=1)": [
+      52.0,
+      78.0
+    ],
+    "Self-Consistency (N=5)": [
+      62.0,
+      86.0
+    ],
+    "Compute-Matched SC (N=15)": [
+      74.0,
+      94.0
+    ],
+    "PRM Best-of-5 (min)": [
+      60.0,
+      84.0
+    ],
+    "PRM Best-of-5 (product)": [
+      54.0,
+      78.0
+    ],
+    "PRM Best-of-5 (step_penalty, lambda=2.0)": [
+      60.0,
+      84.0
+    ]
+  },
+  "paired_win_loss": {
+    "PRM Best-of-5 (min) vs Self-Consistency (N=5)": {
+      "wins": 0,
+      "losses": 1,
+      "both_correct": 36,
+      "both_wrong": 13
+    },
+    "PRM Best-of-5 (min) vs Compute-Matched SC (N=15)": {
+      "wins": 0,
+      "losses": 6,
+      "both_correct": 36,
+      "both_wrong": 8
+    },
+    "PRM Best-of-5 (product) vs Self-Consistency (N=5)": {
+      "wins": 0,
+      "losses": 4,
+      "both_correct": 33,
+      "both_wrong": 13
+    },
+    "PRM Best-of-5 (product) vs Compute-Matched SC (N=15)": {
+      "wins": 0,
+      "losses": 9,
+      "both_correct": 33,
+      "both_wrong": 8
+    },
+    "PRM Best-of-5 (step_penalty, lambda=2.0) vs Self-Consistency (N=5)": {
+      "wins": 0,
+      "losses": 1,
+      "both_correct": 36,
+      "both_wrong": 13
+    },
+    "PRM Best-of-5 (step_penalty, lambda=2.0) vs Compute-Matched SC (N=15)": {
+      "wins": 0,
+      "losses": 6,
+      "both_correct": 36,
+      "both_wrong": 8
+    }
+  },
+  "greedy_format_failures": 5,
+  "sampled_format_failure_rate_%": 11.33,
+  "mean_steps_per_path_Kbar": 6.34,
+  "judge_invalid_rate_%": 19.56,
+  "token_budget_10x_greedy": 110760,
+  "tokens_spent": {
+    "Greedy (N=1)": 11076,
+    "Self-Consistency (N=5)": 49709,
+    "Compute-Matched SC (N=15)": 148528,
+    "PRM Best-of-5 (any)": 92656
+  },
+  "avg_tokens_per_call": {
+    "generation": 198.04,
+    "judge_output": 27.1
+  }
+}

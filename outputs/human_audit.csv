@@ -1,0 +1,46 @@
+problem_id,candidate,step_index,judge_verdict,judge_rationale,step_text,candidate_answer,ground_truth,candidate_correct,human_label(VALID/INVALID)
+gsm8k_test_05,2,4,VALID,The addition is correct and follows from the given information.,The total amount of feed given in the morning and afternoon is 15 + 25 = 40 cups.,20,20,True,VALID
+gsm8k_test_05,2,5,INVALID,The current step does not follow logically from the previous steps; it introduces new information about the flock size without relating it to the feed distribution.,The size of Wendi's flock is 20 chickens.,20,20,True,VALID
+gsm8k_test_05,2,6,INVALID,"The calculation should be 40 - (3 * 20) = 40 - 60 = -20, but the subtraction order is incorrect.",The number of cups of feed needed for the final meal is 40 - (3 * 20) = 40 - 60 = -20.,20,20,True,INVALID
+gsm8k_test_09,0,1,VALID,The calculation correctly uses the formula distance = speed * time.,"John drives for 3 hours at a speed of 60 mph.
+Distance driven = speed * time = 60 mph * 3 hours = 180 miles.",315,45,False,VALID
+gsm8k_test_09,0,4,VALID,The calculation for the distance covered in the half-hour at 30 mph is correct.,"John spends the next half-hour driving at a speed of 30 mph, so he covers a distance of 30 mph * 0.5 hours = 15 miles.",315,45,False,VALID
+gsm8k_test_09,0,6,INVALID,"The distance covered on the return trip should be subtracted from the initial outbound distance, not added.",The total distance John has covered is 180 miles (outbound) + 15 miles (return trip) + 120 miles (remaining time) = 315 miles.,315,45,False,INVALID
+gsm8k_test_09,1,6,VALID,The arithmetic calculations in the current step are correct and follow logically from the preceding steps.,The total distance John drives in 4 hours is 180 miles + 0 miles + 15 miles + 120 miles = 315 miles.,315,45,False,VALID
+gsm8k_test_09,1,7,INVALID,"John only has 1.5 hours left to travel after 2.5 hours of not moving and 0.5 hours of moving, so the distance should be calculated based on the remaining time and speed.","Since John starts from home, the distance he is from home at the end of those 4 hours is 315 miles.",315,45,False,INVALID
+gsm8k_test_09,2,4,INVALID,"The time used in the calculation should be 1.5 hours, not 2 hours.","Calculate the distance traveled between the halfway point and the end of the 4 hours.
+Distance = 80 mph × 2 hours = 160 miles",220,45,False,INVALID
+gsm8k_test_09,2,5,VALID,The calculation for the distance traveled in 20 minutes at 30 mph is correct.,"Add the distance traveled during the next half-hour at 30 mph.
+Distance moved in 20 minutes = 30 mph × (20/60) hours = 10 miles",220,45,False,INVALID
+gsm8k_test_09,4,3,INVALID,"The calculation should be based on the time spent in standstill traffic and zero speed, resulting in a distance of 0 miles.","He tries to get home in 4 hours but spends the first 2 hours in standstill traffic.
+Distance = Speed * Time = 80 mph * 2 hours = 160 miles.",475,45,False,INVALID
+gsm8k_test_14,0,4,VALID,The calculation correctly represents selling half of the remaining vacuum cleaners after the red house sale.,"She sold half of what was left at the orange house, so she sold \( \frac{1}{2} \left( \frac{2x}{3} - 2 \right) = \frac{x}{3} - 1 \). After this, she has \( \frac{2x}{3} - 2 - \left( \frac{x}{3} - 1 \right) = \frac{x}{3} - 1 \) vacuum cleaners left.",18,18,True,VALID
+gsm8k_test_14,1,8,VALID,The simplification of the equation follows the logical sequence of the problem statement and preceding steps.,Simplify the equation: \( \frac{2x}{3} - 2 - \frac{x}{3} + 1 = 5 \).,18,18,True,VALID
+gsm8k_test_14,1,9,INVALID,"The equation should simplify to \(\frac{x}{3} - 1 = 5\), but the step combines terms incorrectly.",Combine like terms: \( \frac{x}{3} - 1 = 5 \).,18,18,True,VALID
+gsm8k_test_14,2,6,INVALID,"The subtraction in the current step should simplify to \(\frac{2x}{3} - 2 - \frac{x}{3} + 1 = \frac{x}{3} - 1\), but the expression given does not match this simplification.","After selling at the orange house, she has \( \left( \frac{2x}{3} - 2 \right) - \left( \frac{x}{3} - 1 \right) = \frac{x}{3} - 1 \) vacuum cleaners left.",18,18,True,VALID
+gsm8k_test_14,3,5,INVALID,The expression should be \(\frac{2x}{3} - 2 - \frac{1}{2} \left( \frac{2x}{3} - 2 \right)\) instead of adding \(\frac{1}{2} \left( \frac{2x}{3} - 2 \right)\).,"After selling at the red house, she had \( \frac{2x}{3} - 2 + \frac{1}{2} \left( \frac{2x}{3} - 2 \right) = \frac{1x}{2} - 1 \) vacuum cleaners left.",12,18,False,INVALID
+gsm8k_test_45,0,1,VALID,The calculation correctly states that 1 pound of beeswax makes 10 candles.,"Calculate the number of candles Charlie can make with 1 pound of beeswax.
+1 pound of beeswax makes 10 tapered candles.",30,20,False,VALID
+gsm8k_test_45,0,2,INVALID,The cost per candle should be calculated as $10.00 / 10 candles = $1.00 per candle.,"Calculate the profit per candle.
+Cost per candle = $10.00 / 20 candles = $0.50 per candle.
+Selling price per candle = $2.00 - $0.50 = $1.50 per candle.",30,20,False,INVALID
+gsm8k_test_45,0,3,VALID,The calculation for total profit is correct and follows from the previous steps.,"Calculate the total profit from selling 20 candles.
+Total profit = 20 candles * $1.50 per candle = $30.00.",30,20,False,VALID
+gsm8k_test_45,1,1,VALID,The calculation correctly subtracts the cost per candle from the selling price.,"First, we need to determine the profit per candle. 
+Profit per candle = Selling price per candle - Cost of materials per candle
+                      = $2.00 - ($10.00 / 20 candles)
+                      = $2.00 - $0.50
+                      = $1.50",30,20,False,INVALID
+gsm8k_test_45,1,2,VALID,The calculation follows logically from the given information and preceding steps.,"Now, we can calculate the total profit.
+Total profit = Profit per candle * Number of candles sold
+            = $1.50 * 20 candles
+            = $30.00",30,20,False,VALID
+gsm8k_test_45,2,4,VALID,The calculation is correct and follows from the problem statement.,"Charlie sells 20 candles at $2.00 each, so he earns 20 * 2 = $40.00 from sales.",-160,20,False,VALID
+gsm8k_test_45,2,6,INVALID,"The calculation should be based on the actual amount of beeswax used, not pounds of beeswax.",The cost of 20 pounds of beeswax and the wicks is 20 * 10 = $200.00.,-160,20,False,INVALID
+gsm8k_test_45,2,7,INVALID,"The cost calculation for 20 candles should be based on the cost of beeswax and wicks for the actual amount used, not assuming 20 pounds of beeswax.","The net profit is the total revenue minus the total cost, which is 40 - 200 = -$160.00.",-160,20,False,VALID
+gsm8k_test_45,3,1,VALID,The step logically follows from the problem statement that he can make 10 candles per pound of beeswax.,Charlie needs 10 pounds of beeswax to make 20 candles.,30,20,False,INVALID
+gsm8k_test_45,3,2,INVALID,"The cost of 10 pounds of beeswax and the wicks should be $10.00 per pound times 10 pounds plus the cost of wicks, which is not specified but would add to the total cost.",The cost of 10 pounds of beeswax and the wicks is $10.00.,30,20,False,INVALID
+gsm8k_test_45,3,5,VALID,The calculation and logic in the current step are correct.,"The net profit is the total revenue minus the cost of supplies, which is $40.00 - $10.00 = $30.00.",30,20,False,VALID
+gsm8k_test_45,4,2,VALID,The calculation correctly determines the amount of beeswax needed for 20 candles.,"To make 20 candles, Charlie needs 20 / 10 = 2 pounds of beeswax.",30,20,False,VALID
+gsm8k_test_45,4,3,INVALID,"The cost of 2 pounds of beeswax should be $20.00, not $10.00.",The cost of 2 pounds of beeswax is $10.00.,30,20,False,INVALID
+gsm8k_test_45,4,5,VALID,The calculation correctly subtracts the cost of supplies from the total revenue.,The net profit is the total revenue minus the cost of supplies: $40.00 - $10.00 = $30.00.,30,20,False,VALID

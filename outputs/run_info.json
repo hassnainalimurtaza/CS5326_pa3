@@ -1,0 +1,12 @@
+{
+  "python": "3.13.16",
+  "seed_protocol": "5326 + problem_index",
+  "total_runtime_seconds": 4913.7,
+  "torch": "2.11.0+cu130",
+  "transformers": "5.20.2",
+  "gpus": [
+    "Tesla T4",
+    "Tesla T4"
+  ],
+  "bitsandbytes": "0.50.2"
+}

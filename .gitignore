@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+*_pa3.zip
+.ipynb_checkpoints/

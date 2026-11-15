@@ -1,0 +1,410 @@
+{
+  "possible_judge_false_positive_paths": [
+    {
+      "id": "gsm8k_test_10",
+      "candidate": 3,
+      "answer": 165,
+      "gold": 460
+    },
+    {
+      "id": "gsm8k_test_12",
+      "candidate": 0,
+      "answer": 794,
+      "gold": 694
+    },
+    {
+      "id": "gsm8k_test_12",
+      "candidate": 2,
+      "answer": 794,
+      "gold": 694
+    },
+    {
+      "id": "gsm8k_test_15",
+      "candidate": 0,
+      "answer": 10,
+      "gold": 60
+    },
+    {
+      "id": "gsm8k_test_15",
+      "candidate": 4,
+      "answer": 20,
+      "gold": 60
+    },
+    {
+      "id": "gsm8k_test_16",
+      "candidate": 1,
+      "answer": 5100,
+      "gold": 125
+    },
+    {
+      "id": "gsm8k_test_18",
+      "candidate": 0,
+      "answer": 64500,
+      "gold": 57500
+    },
+    {
+      "id": "gsm8k_test_18",
+      "candidate": 2,
+      "answer": 40500,
+      "gold": 57500
+    },
+    {
+      "id": "gsm8k_test_18",
+      "candidate": 3,
+      "answer": 11000,
+      "gold": 57500
+    },
+    {
+      "id": "gsm8k_test_19",
+      "candidate": 3,
+      "answer": 60,
+      "gold": 7
+    },
+    {
+      "id": "gsm8k_test_20",
+      "candidate": 1,
+      "answer": 12,
+      "gold": 6
+    },
+    {
+      "id": "gsm8k_test_27",
+      "candidate": 2,
+      "answer": 306,
+      "gold": 243
+    },
+    {
+      "id": "gsm8k_test_32",
+      "candidate": 0,
+      "answer": 100,
+      "gold": 80
+    },
+    {
+      "id": "gsm8k_test_32",
+      "candidate": 1,
+      "answer": 73,
+      "gold": 80
+    },
+    {
+      "id": "gsm8k_test_32",
+      "candidate": 2,
+      "answer": 93,
+      "gold": 80
+    },
+    {
+      "id": "gsm8k_test_32",
+      "candidate": 3,
+      "answer": 14,
+      "gold": 80
+    },
+    {
+      "id": "gsm8k_test_38",
+      "candidate": 3,
+      "answer": 8,
+      "gold": 2
+    },
+    {
+      "id": "gsm8k_test_44",
+      "candidate": 1,
+      "answer": 400,
+      "gold": 48
+    },
+    {
+      "id": "gsm8k_test_44",
+      "candidate": 3,
+      "answer": 240,
+      "gold": 48
+    },
+    {
+      "id": "gsm8k_test_44",
+      "candidate": 4,
+      "answer": 540,
+      "gold": 48
+    },
+    {
+      "id": "gsm8k_test_45",
+      "candidate": 1,
+      "answer": 30,
+      "gold": 20
+    },
+    {
+      "id": "gsm8k_test_50",
+      "candidate": 0,
+      "answer": 60,
+      "gold": 30
+    }
+  ],
+  "possible_judge_false_negative_paths": [
+    {
+      "id": "gsm8k_test_05",
+      "candidate": 2,
+      "invalid_steps": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "gsm8k_test_14",
+      "candidate": 1,
+      "invalid_steps": [
+        9
+      ]
+    },
+    {
+      "id": "gsm8k_test_14",
+      "candidate": 2,
+      "invalid_steps": [
+        6
+      ]
+    },
+    {
+      "id": "gsm8k_test_17",
+      "candidate": 3,
+      "invalid_steps": [
+        5,
+        6,
+        7,
+        9
+      ]
+    },
+    {
+      "id": "gsm8k_test_20",
+      "candidate": 2,
+      "invalid_steps": [
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "gsm8k_test_20",
+      "candidate": 3,
+      "invalid_steps": [
+        1,
+        2,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "gsm8k_test_21",
+      "candidate": 3,
+      "invalid_steps": [
+        1,
+        4,
+        5,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "gsm8k_test_29",
+      "candidate": 1,
+      "invalid_steps": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "gsm8k_test_29",
+      "candidate": 4,
+      "invalid_steps": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "gsm8k_test_35",
+      "candidate": 3,
+      "invalid_steps": [
+        2
+      ]
+    },
+    {
+      "id": "gsm8k_test_37",
+      "candidate": 3,
+      "invalid_steps": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "gsm8k_test_38",
+      "candidate": 4,
+      "invalid_steps": [
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "id": "gsm8k_test_39",
+      "candidate": 1,
+      "invalid_steps": [
+        4
+      ]
+    },
+    {
+      "id": "gsm8k_test_39",
+      "candidate": 3,
+      "invalid_steps": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "gsm8k_test_39",
+      "candidate": 4,
+      "invalid_steps": [
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "gsm8k_test_42",
+      "candidate": 2,
+      "invalid_steps": [
+        1
+      ]
+    },
+    {
+      "id": "gsm8k_test_46",
+      "candidate": 0,
+      "invalid_steps": [
+        2
+      ]
+    },
+    {
+      "id": "gsm8k_test_46",
+      "candidate": 2,
+      "invalid_steps": [
+        1
+      ]
+    },
+    {
+      "id": "gsm8k_test_48",
+      "candidate": 0,
+      "invalid_steps": [
+        4
+      ]
+    },
+    {
+      "id": "gsm8k_test_48",
+      "candidate": 1,
+      "invalid_steps": [
+        6,
+        7,
+        8
+      ]
+    }
+  ],
+  "all_five_wrong_shared_flaw_or_mode_collapse": [
+    {
+      "id": "gsm8k_test_03",
+      "answers": [
+        65000,
+        null,
+        -10000,
+        17000,
+        120000
+      ],
+      "gold": 70000
+    },
+    {
+      "id": "gsm8k_test_08",
+      "answers": [
+        40,
+        100,
+        80,
+        176,
+        80
+      ],
+      "gold": 160
+    },
+    {
+      "id": "gsm8k_test_09",
+      "answers": [
+        315,
+        315,
+        220,
+        null,
+        475
+      ],
+      "gold": 45
+    },
+    {
+      "id": "gsm8k_test_13",
+      "answers": [
+        12,
+        1,
+        1,
+        6,
+        20
+      ],
+      "gold": 13
+    },
+    {
+      "id": "gsm8k_test_16",
+      "answers": [
+        1850,
+        5100,
+        960,
+        null,
+        8000
+      ],
+      "gold": 125
+    },
+    {
+      "id": "gsm8k_test_30",
+      "answers": [
+        94,
+        137,
+        null,
+        71,
+        1
+      ],
+      "gold": 104
+    },
+    {
+      "id": "gsm8k_test_44",
+      "answers": [
+        null,
+        400,
+        200,
+        240,
+        540
+      ],
+      "gold": 48
+    },
+    {
+      "id": "gsm8k_test_45",
+      "answers": [
+        30,
+        30,
+        -160,
+        30,
+        30
+      ],
+      "gold": 20
+    },
+    {
+      "id": "gsm8k_test_47",
+      "answers": [
+        null,
+        70,
+        23,
+        82,
+        77
+      ],
+      "gold": 163
+    }
+  ]
+}
